@@ -1,4 +1,4 @@
-# analysis-synthesis-algorithms
+# Analysis and Synthesis of Algorithms
 A C++ implementation of a maximum-flow problem in times of COVID-19 pandemic.
 
 ##  Problem Description
