@@ -1,4 +1,4 @@
-# Analysis and Synthesis of Algorithms
+# The Maximum Flow Problem
 A C++ implementation of a maximum-flow problem in times of COVID-19 pandemic.
 
 ##  Problem Description
@@ -58,11 +58,5 @@ First, I had to manipulate the well-known *visited* flag at the end of every sea
 Secondly, I had to admit that houses can have multiple citizens. Once more, this has to do with the visited flag, which will turn true when there is no residual capacity from the super-source to the considered house.
 
 Lastly, the ***order of exploration***. I believed it could be possible to describe a universal rule based on which the algorithm could always choose the best path for every citizen and for every configuration of the graph. Initially, the DFS was just evaluating vertices in alphanumeric order, but I have quickly realized that it was not enough. A small improvement of it was to give priority to the vertices that, instead, could not be reached from any other side of the network. In this way, I ensured that parts of the graph were not left out for ever. Unfortunately, looking ahead of just one move (i.e., evaluating the edges of the next vertex I would visit) doesn’t provide a unified solution, since the whole hypothetical route should be examined.
-
-
-
-
-
-
 
 
