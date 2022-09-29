@@ -1,4 +1,4 @@
-# The Maximum Flow Problem
+# Maximum Flow
 A C++ implementation of a maximum-flow problem in times of COVID-19 pandemic.
 
 ##  Problem Description
